@@ -10,6 +10,7 @@ import AdsContainer from "./AdsContainer.jsx";
 import CartContainer from "./CartContainer.jsx";
 
 const App = () => {
+	console.log(process.env.PUBLIC_URL)
  return (
  	<Router basename={process.env.PUBLIC_URL}>
  		<div>
