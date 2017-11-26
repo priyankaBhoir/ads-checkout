@@ -39,21 +39,21 @@ export default class CartContainer extends Component {
 			<div>
 				<div className="section"> 
 					{Object.keys(this.state.items).map(id => {
-						return (<div className="row"> 
+						return (<div className="row" key={id}> 
 								<span className="col m4"> {this.state.items[id].title }</span> 
 								<span className="col m4"> $ {this.state.items[id].price }</span> 
 								<span className="col m4"> {this.state.items[id].quantity }</span> 
 							</div>)
 					})} 
 				</div>
-				<div class="divider"/> 
+				<div className="divider"/> 
 				<div className="section">
 					<div>Your total: <b> $ {this.state.totalPrices.actualPrice} </b></div>
 					{this.state.totalPrices.discountPrice !== this.state.totalPrices.actualPrice && 
 						<div> Your total After Discount: <b> $ {this.state.totalPrices.discountPrice} </b></div>
 					}
 				</div>
-				<div class="divider"/> 
+				<div className="divider"/> 
 				<div className="section">
 					<span> Enter your name to check special discounts on your purchase </span>
 					<div className="row">
@@ -61,7 +61,7 @@ export default class CartContainer extends Component {
 						<button className="col m4" onClick={this.setCustomerName} > Save </button>
 					</div>
 				</div>
-				<div className="center link"> <span class="btn grey lighten-2"> <Link to="/">continue shopping...</Link></span></div>
+				<div className="center link"> <span className="btn grey lighten-2"> <Link to="/">continue shopping...</Link></span></div>
 			</div>
 		)
 	}

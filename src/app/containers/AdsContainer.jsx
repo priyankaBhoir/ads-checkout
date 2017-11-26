@@ -31,7 +31,6 @@ export default class AdsContainer extends Component {
 	}
 
 	updateAllAds = () => {
-		console.log("dgvgfd");
 		this.setState({
 			ads: AdsStore.currentState()
 		})
@@ -45,10 +44,10 @@ export default class AdsContainer extends Component {
 
 	render() {
 		return !this.state.ads.length ? <div> Loading ... </div> : (
-			<div class="section">
+			<div className="section">
 				<div className="header"> <span className="btn btn-floating right" style={{marginTop: -40}}> {this.state.cartItemNos}</span></div>
 				<div className="row"> {this.state.ads.map(ad => <AdShelf key={ad.id} ad={ad} addToCart={addToCart}/>)} </div>
-				<div className="center"> <span class="btn grey lighten-2"> <Link to="/cart">goto cart</Link></span></div>
+				<div className="center"> <span className="btn grey lighten-2"> <Link to="/cart">goto cart</Link></span></div>
 			</div>
 		)
 	}

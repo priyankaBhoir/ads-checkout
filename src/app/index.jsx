@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 import App from './containers/App.jsx';
+require("react-hot-loader/patch")
 
 
 const render = () => {

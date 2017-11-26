@@ -15,7 +15,7 @@ const App = () => {
  		<div>
 	 		<nav className="light-blue lighten-1"> 
 	 			<div className="nav-wrapper container"> 
-		  		<h2 class="center"> Buy Ad for employer </h2>
+		  		<h2 className="center"> Buy Ad for employer </h2>
 		  	</div>
 		  </nav>
 			<div className="container">
