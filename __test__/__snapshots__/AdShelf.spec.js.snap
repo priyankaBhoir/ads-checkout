@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AdShelf --- Snapshot +++capturing Snapshot of AdShelf 1`] = `
+<div
+  className="col s12 m4"
+>
+  <div>
+     
+    <div
+      className="icon-block"
+      style={
+        Object {
+          "height": 200,
+        }
+      }
+    >
+      <h5
+        className="center"
+      >
+        Classic
+      </h5>
+      <ul>
+        <li>
+           
+          Basic Ad
+           
+        </li>
+         
+      </ul>
+      <div
+        className="ad-price"
+      >
+         $ 
+        299
+         
+      </div>
+    </div>
+     
+  </div>
+  <div>
+    <input
+      min="1"
+      onChange={[Function]}
+      type="number"
+      value={1}
+    />
+    <button
+      onClick={[Function]}
+    >
+       Add to Cart 
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ad --- Snapshot +++capturing Snapshot of AdPackage 1`] = `
+<div
+  className="icon-block"
+  style={
+    Object {
+      "height": 200,
+    }
+  }
+>
+  <h5
+    className="center"
+  >
+    Classic
+  </h5>
+  <ul>
+    <li>
+       
+      first
+       
+    </li>
+    <li>
+       
+      second
+       
+    </li>
+     
+  </ul>
+  <div
+    className="ad-price"
+  >
+     $ 
+    299
+     
+  </div>
+</div>
+`;
