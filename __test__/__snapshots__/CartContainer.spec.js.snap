@@ -6,7 +6,7 @@ exports[`CartContainer --- Snapshot +++capturing Snapshot of Container 1`] = `
     className="section"
   />
   <div
-    class="divider"
+    className="divider"
   />
   <div
     className="section"
@@ -21,7 +21,7 @@ exports[`CartContainer --- Snapshot +++capturing Snapshot of Container 1`] = `
     </div>
   </div>
   <div
-    class="divider"
+    className="divider"
   />
   <div
     className="section"
@@ -49,7 +49,7 @@ exports[`CartContainer --- Snapshot +++capturing Snapshot of Container 1`] = `
   >
      
     <span
-      class="btn grey lighten-2"
+      className="btn grey lighten-2"
     >
        
     </span>

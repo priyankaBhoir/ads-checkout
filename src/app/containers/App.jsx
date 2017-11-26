@@ -11,7 +11,7 @@ import CartContainer from "./CartContainer.jsx";
 
 const App = () => {
  return (
- 	<Router>
+ 	<Router basename={process.env.PUBLIC_URL}>
  		<div>
 	 		<nav className="light-blue lighten-1"> 
 	 			<div className="nav-wrapper container"> 

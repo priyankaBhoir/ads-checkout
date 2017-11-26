@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Ads checkout system, which will let customer buy diffrent types of ads. System also works on special pricing rules",
   "scripts": {
-    "test": "jest",
-    "test:watch": "npm test -- --watch",
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --output-public-path=/dist/",
-    "build": "NODE_ENV=production webpack -d"
+    "test": "PUBLIC_URL=localhost:8080 jest",
+    "test:watch": "PUBLIC_URL=localhost:8080  npm test -- --watch",
+    "dev": "PUBLIC_URL=localhost:8080  node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --output-public-path=/dist/",
+    "build": "PUBLIC_URL=https://priyankabhoir.github.io/ads-checkout NODE_ENV=production webpack -d"
   },
   "author": "Priyanka Bhoir",
   "license": "ISC",
