@@ -5,7 +5,7 @@
   "scripts": {
     "test": "jest",
     "test:watch": "npm test -- --watch",
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --output-public-path=/dist/",
     "build": "NODE_ENV=production webpack -d"
   },
   "author": "Priyanka Bhoir",
